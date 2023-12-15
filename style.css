@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.menu {
+    width: 94%;
+    background: rgb(64, 68, 70);
+    opacity: 90%;
+    justify-content: end;
+    display: flex;
+    padding: 7vh;
+    text-align: center;
+    border: 0;
+    flex-wrap: wrap;
+}
+
+.navega {
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+}
+
+
+.navega>li>a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.navega>li>a:hover {
+    opacity: 90%;
+    color: rgb(167, 167, 167);
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+#sessao1 {
+
+    flex-wrap: wrap;
+    background: linear-gradient(2deg, #cac2c2 8.33%, rgb(64, 68, 70) 100%);
+    padding: 15rem;
+    /* rem equivale a 16px 'em' equivale a 8 px*/
+
+}
+
+#sessao1>.apres {
+
+    padding: 0;
+}
+
+.apres>h1 {
+    font-size: 54px;
+    color: rgb(87, 81, 81)
+}
+
+.apres>h1>span {
+    color: rgb(223, 214, 214);
+}
+
+.apres>p {
+    font-size: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.apres>button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(77, 77, 77);
+    border-radius: 30px;
+    padding: 18px;
+    width: 15rem;
+    margin: 17px;
+    border: 1px solid rgba(59, 59, 59, 0.705);
+
+}
+
+.apres>button:hover {
+    background-color: rgba(0, 0, 0, 0.13);
+    transition: 0.4s;
+    transform: translateY(7px);
+    opacity: 70%;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    border: 1px solid white;
+}
+
+#app {
+
+    background-color: rgba(84, 88, 92, 0.301);
+    padding: 30vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#app>.text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+}
+
+#app>.text>button {
+    width: 16vw;
+    margin-left: 20%;
+    color: #2e2e2e;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border: 2px solid rgb(47, 187, 168);
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+#app>.text>button:hover {
+    background-color: rgba(0, 0, 0, 0.13);
+    transition: 0.9s;
+    transform: translateY(7px);
+
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#app>.image>img {
+    width: 24vw;
+    height: 50vh;
+}
+
+#container {
+    background-color: rgba(84, 88, 92, 0.301);
+    padding: 30vh;
+    flex-wrap: wrap;
+
+}
+
+#container>h2 {
+    font-size: 40px;
+    margin-top: -17rem;
+    text-align: center;
+    color: rgb(54, 53, 53);
+
+}
+
+#container>p {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #000000;
+    text-align: justify;
+}
+
+#container>.textone {
+    text-align: center;
+    font-size: 28px;
+}
+
+#container>button {
+    background-color: #f5f0f0;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 14px;
+    width: 12vw;
+    border: 2px solid rgb(47, 187, 168);
+    margin: 60px;
+    font-size: 15px;
+    color: #2e2e2e;
+}
+
+#container>button:hover {
+    background-color: rgba(0, 0, 0, 0.13);
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transform: translateY(7px);
+    transition: 0.9s;
+}
+
+#container>.line {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+#container>img {
+    width: 40vw;
+    margin-top: 30px;
+    margin-left: 15vw;
+}
+
+#container-cofre {
+    background: linear-gradient(180deg, #13086d25 8.33%, rgba(42, 53, 156, 0.637) 100%), url(img/img\ cofre\ fundo.jpg) ;
+    background-attachment: fixed;
+    height: 50rem;
+    display: flex;
+    background-position: center;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+   
+}
+
+#container-cofre>div>img {
+margin-top: 8rem;
+margin-left: 25rem;
+flex-wrap: wrap;
+   height: 19vw;
+
+}
+
+#container-cofre> div >h2{
+    margin-left: 9rem;
+    font-size: 30px;
+}
+#container-cofre> div >p{
+    margin-top: 2rem;
+    margin-left: 9rem;
+    font-size: 25px;
+}
+footer{
+    padding: 13vh;
+    background: linear-gradient(2deg, #302f2f 8.33%, rgba(180, 182, 184, 0.685) 100%);
+    text-align: center;
+
+}
+footer >img{
+     width: 30rem;
+     height: 7rem;
+     margin-top: -5rem;
+}
+.item-footer{
+    margin-top: auto;
+    align-items: center;
+    font-size: 17px;
+    list-style: none;
+   color: #181818;
+display: flex;
+  justify-content:space-around ; 
+ margin-top: 3%;
+   
+}
+
+.item-footer >a{
+    text-decoration: none;
+    color:#2e2e2e ;
+    font-size: 18px;
+}
